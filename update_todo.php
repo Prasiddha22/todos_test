@@ -31,6 +31,7 @@ if (isset($_POST['id']) && isset($_POST['title']) && isset($_POST['description']
         ];
     }
 } else {
+    // If not successful, create the response array
     $resp = [
         'success' => false,
         'message' => 'Id, title and description are required'
