@@ -24,6 +24,7 @@ if (isset($_POST['id']) && isset($_POST['title']) && isset($_POST['description']
             'message' => 'Todo updated successfully'
         ];
     } else {
+        // If not successful, create the response array
         $resp = [
             'success' => false,
             'message' => 'Error updating todo'
