@@ -1,10 +1,11 @@
 <?php
 
+// Include the connection file
 include './connection.php';
 
-
+// Check if all the fields are set
 if (isset($_POST['id']) && isset($_POST['title']) && isset($_POST['description'])) {
-
+    // store the data in the variables
     $id = $_POST['id'];
     $title = $_POST['title'];
     $description = $_POST['description'];
