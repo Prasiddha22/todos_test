@@ -13,6 +13,7 @@ if (isset($_POST['id']) && isset($_POST['title']) && isset($_POST['description']
 
     // Create the query
     $sql = "UPDATE todo set title = '$title', description = '$description', date = '$date' where id = '$id'";
+    // Run the query
     $result = mysqli_query($connect, $sql);
 
 
