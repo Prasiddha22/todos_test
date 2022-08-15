@@ -16,7 +16,7 @@ if (isset($_POST['id']) && isset($_POST['title']) && isset($_POST['description']
     // Run the query
     $result = mysqli_query($connect, $sql);
 
-
+    // Check if the query was successful
     if ($result) {
         $resp = [
             'success' => true,
