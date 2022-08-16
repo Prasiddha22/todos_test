@@ -10,6 +10,7 @@ $result = mysqli_query($connect, $sql);
 // Create a variable array to store the retrieved data
 $todo_arr = [];
 
+// Loop through the result and store the data in the array
 while ($row[] = mysqli_fetch_assoc($result)) {
     $todo_arr = $row;
 }
