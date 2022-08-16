@@ -12,6 +12,7 @@ $todo_arr = [];
 
 // Loop through the result and store the data in the array
 while ($row[] = mysqli_fetch_assoc($result)) {
+    // Store the data in the array
     $todo_arr = $row;
 }
 
