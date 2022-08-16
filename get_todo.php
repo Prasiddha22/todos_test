@@ -4,6 +4,8 @@ include './connection.php';
 
 // query to select the todo
 $sql = "SELECT * FROM todo";
+
+// Execute the query
 $result = mysqli_query($connect, $sql);
 
 $todo_arr = [];
