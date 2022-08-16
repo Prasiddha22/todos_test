@@ -22,4 +22,5 @@ $resp = [
     'data' => $todo_arr
 ];
 
+// return the response in the json format
 echo json_encode($resp);
