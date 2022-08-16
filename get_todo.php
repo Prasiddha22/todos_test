@@ -1,5 +1,5 @@
 <?php
-
+// include the connection file
 include './connection.php';
 
 
