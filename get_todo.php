@@ -16,6 +16,7 @@ while ($row[] = mysqli_fetch_assoc($result)) {
     $todo_arr = $row;
 }
 
+// create a response array
 $resp = [
     'success' => true,
     'data' => $todo_arr
