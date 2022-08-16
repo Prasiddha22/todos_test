@@ -2,7 +2,7 @@
 // include the connection file
 include './connection.php';
 
-
+// query to select the todo
 $sql = "SELECT * FROM todo";
 $result = mysqli_query($connect, $sql);
 
