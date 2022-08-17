@@ -34,6 +34,7 @@ if (isset($_POST['id'])) {
     ];
 }
 
+// return the response in the json format
 echo json_encode($resp);
 
 
