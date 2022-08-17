@@ -12,6 +12,7 @@ if (isset($_POST['title']) && isset($_POST['description'])) {
 
     // Create the query
     $sql = "INSERT into todo (title, description, date) values ('$title', '$description', '$date')";
+    // Run the query
     $result = mysqli_query($connect, $sql);
 
 
