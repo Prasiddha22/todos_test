@@ -36,7 +36,7 @@ if (isset($_POST['title']) && isset($_POST['description'])) {
         'message' => 'Title and description are required'
     ];
 }
-
+// return the response in the json format
 echo json_encode($resp);
 
 
