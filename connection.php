@@ -1,6 +1,6 @@
 <?php
 
-
+// specify host name
 $dbhost = 'localhost';
 $dbuser = 'root';
 $dbpass = '';
