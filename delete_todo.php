@@ -9,6 +9,7 @@ if (isset($_POST['id'])) {
 
     // Create the query
     $sql = "DELETE from todo where id = '$id'";
+    // Run the query
     $result = mysqli_query($connect, $sql);
 
 
