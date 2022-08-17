@@ -23,6 +23,7 @@ if (isset($_POST['title']) && isset($_POST['description'])) {
             'message' => 'Todo added successfully'
         ];
     } else {
+        // If not successful, create the response array
         $resp = [
             'success' => false,
             'message' => 'Error adding todo'
