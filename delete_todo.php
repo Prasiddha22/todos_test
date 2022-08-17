@@ -2,7 +2,7 @@
 // include the connection file
 include './connection.php';
 
-
+// Check if all the fields are set
 if (isset($_POST['id'])) {
 
     $id = $_POST['id'];
