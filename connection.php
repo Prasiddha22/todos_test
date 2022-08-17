@@ -6,6 +6,7 @@ $dbhost = 'localhost';
 $dbuser = 'root';
 // specify password
 $dbpass = '';
+// specify database name
 $dbname = 'todos_test';
 
 
