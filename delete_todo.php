@@ -4,7 +4,7 @@ include './connection.php';
 
 // Check if all the fields are set
 if (isset($_POST['id'])) {
-
+    // store the data in the variables
     $id = $_POST['id'];
 
     $sql = "DELETE from todo where id = '$id'";
