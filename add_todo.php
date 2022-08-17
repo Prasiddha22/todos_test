@@ -10,6 +10,7 @@ if (isset($_POST['title']) && isset($_POST['description'])) {
     $description = $_POST['description'];
     $date = date('Y-m-d H:i:s');
 
+    // Create the query
     $sql = "INSERT into todo (title, description, date) values ('$title', '$description', '$date')";
     $result = mysqli_query($connect, $sql);
 
