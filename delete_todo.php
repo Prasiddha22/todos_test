@@ -20,6 +20,7 @@ if (isset($_POST['id'])) {
             'message' => 'Todo deleted successfully'
         ];
     } else {
+        // If not successful, create the response array
         $resp = [
             'success' => false,
             'message' => 'Error deleting todo'
