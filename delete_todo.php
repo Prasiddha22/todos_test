@@ -7,6 +7,7 @@ if (isset($_POST['id'])) {
     // store the data in the variables
     $id = $_POST['id'];
 
+    // Create the query
     $sql = "DELETE from todo where id = '$id'";
     $result = mysqli_query($connect, $sql);
 
