@@ -17,6 +17,7 @@ if (isset($_POST['title']) && isset($_POST['description'])) {
 
     // Check if the query was successful
     if ($result) {
+        // If successful, create the response array
         $resp = [
             'success' => true,
             'message' => 'Todo added successfully'
