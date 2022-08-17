@@ -5,6 +5,7 @@ include './connection.php';
 // Check if all the fields are set
 if (isset($_POST['title']) && isset($_POST['description'])) {
 
+    // store the data in the variables
     $title = $_POST['title'];
     $description = $_POST['description'];
     $date = date('Y-m-d H:i:s');
