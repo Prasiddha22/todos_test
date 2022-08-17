@@ -27,6 +27,7 @@ if (isset($_POST['id'])) {
         ];
     }
 } else {
+    // If all fields are not set, create the response array
     $resp = [
         'success' => false,
         'message' => 'Id is required'
