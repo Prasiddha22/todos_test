@@ -30,6 +30,7 @@ if (isset($_POST['title']) && isset($_POST['description'])) {
         ];
     }
 } else {
+    // If all fields are not set, create the response array
     $resp = [
         'success' => false,
         'message' => 'Title and description are required'
