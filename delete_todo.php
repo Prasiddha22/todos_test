@@ -14,6 +14,7 @@ if (isset($_POST['id'])) {
 
     // Check if the query was successful
     if ($result) {
+        // If successful, create the response array
         $resp = [
             'success' => true,
             'message' => 'Todo deleted successfully'
